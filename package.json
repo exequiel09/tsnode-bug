@@ -1,0 +1,22 @@
+{
+  "name": "tsnode-bug",
+  "author": "Exequiel Ceasar Navarrete <exequiel.navarrete09@gmail.com>",
+  "description": "ts-node bug reproduction",
+  "scripts": {},
+  "private": true,
+  "engines": {
+    "node": ">= 12.18.1"
+  },
+  "dependencies": {
+    "typeorm": "~0.2.25"
+  },
+  "devDependencies": {
+    "@types/node": "~12.12.29",
+    "esm": "^3.2.25",
+    "ts-jest": "25.2.1",
+    "ts-node": "~8.6.2",
+    "tsconfig-paths": "^3.9.0",
+    "tslint": "~6.0.0",
+    "typescript": "~3.8.3"
+  }
+}
