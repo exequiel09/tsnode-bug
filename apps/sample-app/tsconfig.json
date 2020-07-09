@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "target": "es2015",
+    "outDir": "../../dist/out-tsc",
+    "types": ["node"],
+    "noUnusedParameters": true,
+  },
+  "include": ["**/*.ts"]
+}
