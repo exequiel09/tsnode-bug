@@ -3,7 +3,8 @@
   "author": "Exequiel Ceasar Navarrete <exequiel.navarrete09@gmail.com>",
   "description": "ts-node bug reproduction",
   "scripts": {
-    "rekt:ts-node-bug": "ts-node -r esm -r tsconfig-paths/register --project apps/sample-app/tsconfig.json apps/sample-app/rekt-ts-node.ts"
+    "rekt:ts-node-bug": "ts-node -r esm -r tsconfig-paths/register --project apps/sample-app/tsconfig.json apps/sample-app/rekt-ts-node.ts",
+    "rekt:ts-node-bug-2": "ts-node -r esm --project apps/sample-app/tsconfig.json apps/sample-app/rekt-ts-node-2.ts"
   },
   "private": true,
   "engines": {
