@@ -3,25 +3,17 @@
   "author": "Exequiel Ceasar Navarrete <exequiel.navarrete09@gmail.com>",
   "description": "ts-node bug reproduction",
   "scripts": {
-    "typeorm:tsnode-bug-dev": "ts-node -r esm -r tsconfig-paths/register --project apps/sample-app/tsconfig.json ./node_modules/.bin/typeorm",
-    "typeorm:tsnode-bug:migrate-dev": "npm run typeorm:tsnode-bug-dev -- migration:generate --config ./apps/sample-app/ormconfig.js",
     "rekt:ts-node-bug": "ts-node -r esm -r tsconfig-paths/register --project apps/sample-app/tsconfig.json apps/sample-app/rekt-ts-node.ts"
   },
   "private": true,
   "engines": {
     "node": ">= 12.18.1"
   },
-  "dependencies": {
-    "mysql": "~2.18.1",
-    "typeorm": "~0.2.25"
-  },
   "devDependencies": {
     "@types/node": "~12.12.29",
     "esm": "^3.2.25",
-    "ts-jest": "25.2.1",
     "ts-node": "~8.10.2",
     "tsconfig-paths": "^3.9.0",
-    "tslint": "~6.0.0",
     "typescript": "~3.8.3"
   }
 }
